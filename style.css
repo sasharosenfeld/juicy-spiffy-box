@@ -51,8 +51,8 @@ header nav .menu a:hover {
   color: black;
 }
 .deckofCards .cardDIV {
-  background-color: #fff;
-  border: 1px solid #000;
+  background-color: white;
+  border: 1px solid #919191;
 }
 .deckofCards .cardDIV p {
   padding: 3% 5%;
