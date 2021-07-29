@@ -46,5 +46,16 @@ header nav .menu a:hover {
 }
 
 .deckofCards {
-  
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justofy-content: flex-start;
+  align-items: stretch;
+  align-content: space-between;   
+}
+
+.deckofCards .cardDIV {
+  order: 3;
+  flex: 1 0 20%;
+  align-self: auto;  
 }
