@@ -1,11 +1,28 @@
-header {
-  margin: 16;
+body {
+  color: #ffffff;
+}
+a {
+  text-decoration: none;
+}
+img {
+  display: block;
+}
+footer {
+  padding: 3%;
+}
+
+header nav {
+  background-color: #000000;
+  margin-bottom: 1%;
+}
+/* Calling the classname "menu" */
+header nav .menu {
+  margin: 0;
   padding: 1%;
-  background-color: black;
 }
-
-li {
+header nav .menu li {
+  display: inline;
+  margin-right: 1em;
   color: white;
+  
 }
-
-
