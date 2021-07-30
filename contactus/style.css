@@ -31,3 +31,47 @@ header nav .menu a {
 header nav .menu a:hover {
   color: #9e9e9e;
 }
+
+.hero {
+  color: white;
+  font-size: 30px;
+  font-family: "Gowun Batang", serif;
+  font-weight: 800;
+  text-align: center;
+  /* top/bottom 5% right/left 0   */
+  padding: 5% 0;
+  height: 100vh;
+  background-image: url(https://images.pexels.com/photos/268261/pexels-photo-268261.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: up center;
+}
+
+.deckofCards {
+  background-color: #d4d4d4;
+  padding: 1% 3%;
+  color: black;
+}
+.deckofCards .cardDIV {
+  background-color: white;
+  border: 1px solid #919191;
+}
+.deckofCards .cardDIV p {
+  padding: 3% 5%;
+  font-family: "Gowun Batang", serif;
+}
+.deckofCards .cardDIV img {
+  width: 100%;
+}
+
+/* ~Flexbox~ (https://css-tricks.com/snippets/css/a-guide-to-flexbox/) */
+.deckofCards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+.deckofCards .cardDIV {
+  width: 30%;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
