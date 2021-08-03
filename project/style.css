@@ -41,7 +41,7 @@ header nav .menu a:hover {
   /* top/bottom 5% right/left 0   */
   padding: 5% 0;
   height: 100vh;
-  background-image: url(https://images.pexels.com/photos/3934739/pexels-photo-3934739.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500);
+  background-image: url(https://images.pexels.com/photos/3629813/pexels-photo-3629813.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: up center;
@@ -52,4 +52,5 @@ summary {
 font-size: 25px;
   font-family: "Gowun Batang", serif;
   font-weight: 600;
+  background-color: white;
 }
