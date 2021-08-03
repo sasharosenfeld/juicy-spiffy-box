@@ -1,6 +1,6 @@
 body {
   color: #9e9e9e;
-  background-color: #d4d4d4;
+  background-color: #e8e8e8;
 }
 
 img {
@@ -39,7 +39,7 @@ header nav .menu a:hover {
   /* top/bottom 5% right/left 0   */
   padding: 5% 0;
   height: 100vh;
-  background-image: url(https://images.pexels.com/photos/268261/pexels-photo-268261.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-image: url(https://images.pexels.com/photos/3597339/pexels-photo-3597339.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: up center;

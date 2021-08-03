@@ -1,6 +1,6 @@
 body {
-  color: #9e9e9e;
-  background-color: #d4d4d4;
+  color: black;
+  background-color: #e8e8e8;
 }
 a {
   text-decoration: none;
@@ -33,7 +33,7 @@ header nav .menu a:hover {
 }
 
 .hero {
-  color: #e6e6e6;
+  color: white;
   font-size: 40px;
   font-family: "Gowun Batang", serif;
   font-weight: 800;
@@ -41,7 +41,7 @@ header nav .menu a:hover {
   /* top/bottom 5% right/left 0   */
   padding: 5% 0;
   height: 100vh;
-  background-image: url(https://images.pexels.com/photos/415980/pexels-photo-415980.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-image: url(https://images.pexels.com/photos/3597326/pexels-photo-3597326.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: up center;

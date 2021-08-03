@@ -1,6 +1,6 @@
 body {
   color: black;
-  background-color: #d4d4d4;
+  background-color: #e8e8e8;
 }
 a {
   text-decoration: none;
@@ -52,7 +52,6 @@ summary {
 font-size: 25px;
   font-family: "Gowun Batang", serif;
   font-weight: 600;
-  background-color: white;
 }
 
 span {
