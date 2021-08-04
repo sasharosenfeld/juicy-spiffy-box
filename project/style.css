@@ -12,11 +12,9 @@ footer {
   padding: 3%;
 }
 
-
-
 .hero {
   color: white;
-  font-size: 30px;
+  font-size: 32px;
   font-family: "Gowun Batang", serif;
   font-weight: 800;
   text-align: center;
@@ -29,9 +27,18 @@ footer {
   background-position: up center;
 }
 
+h1 {
+  color: white;
+  font-size: 38px;
+  font-family: "Gowun Batang", serif;
+  font-weight: 800;
+  text-align: center;
+  /* top/bottom 5% right/left 0   */
+}
+
 summary {
- color: black;
-font-size: 25px;
+  color: black;
+  font-size: 25px;
   font-family: "Gowun Batang", serif;
   font-weight: 600;
   padding: 3%;
@@ -42,5 +49,5 @@ font-size: 25px;
 span {
   color: black;
   font-family: "Gowun Batang", serif;
-  font-size: 20px
+  font-size: 20px;
 }

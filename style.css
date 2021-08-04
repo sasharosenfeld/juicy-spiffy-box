@@ -28,6 +28,17 @@ footer {
   background-position: up center;
 }
 
+span {
+ color: white;
+  font-size: 45px;
+  font-family: 'Gowun Batang', serif;
+  font-weight: 800;
+  text-align: center;
+  /* top/bottom 5% right/left 0   */
+  padding: 5% 0;
+  height: 100vh; 
+}
+
 .deckofCards {
   background-color: #e8e8e8;
   padding: 1% 3%;
