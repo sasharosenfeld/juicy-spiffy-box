@@ -51,20 +51,103 @@ https://cdnjs.com/libraries/normalize
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
-        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
 
     <!-- Import the webpage's stylesheet -->
     <link href="project/style.css" rel="stylesheet" />
   </head>
-    <body>
+  <body>
     <header>
-      <nav>
-        <ul class="menu">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="about_index.html">About</a></li>
-          <li><a href="project_index.html">Project</a></li>
-          <li><a href="contactus_index.html">Contact Us</a></li>
-        </ul>
+      <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">Menu</a>
+          <button
+            class="navbar-toggler"
+            type="button"
+            data-bs-toggle="collapse"
+            data-bs-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent"
+            aria-expanded="false"
+            aria-label="Toggle navigation"
+          >
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="index.html"
+                  >Home</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="about_index.html"
+                  >About</a
+                >
+              </li>
+              <li class="nav-item">
+                <a
+                  class="nav-link active"
+                  aria-current="page"
+                  href="contactus_index.html"
+                  >Contact Us</a
+                >
+              </li>
+              <li class="nav-item dropdown">
+                <a
+                  class="nav-link dropdown-toggle"
+                  href="#"
+                  id="navbarDropdown"
+                  role="button"
+                  data-bs-toggle="dropdown"
+                  aria-expanded="false"
+                >
+                  Project
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li>
+                    <a class="dropdown-item" href="17century_index.html"
+                      >17th Century</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="18century_index.html"
+                      >18th Century
+                    </a>
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="19century_index.html"
+                      >19th Century</a
+                    >
+                  </li>
+                  <li>
+                    <a class="dropdown-item" href="20century_index.html"
+                      >Early 20th Century</a
+                    >
+                  </li>
+                </ul>
+              </li>
+            </ul>
+            <form class="d-flex">
+              <input
+                class="form-control me-2"
+                type="search"
+                placeholder="Search"
+                aria-label="Search"
+              />
+              <button class="btn btn-outline-success" type="submit">
+                Search
+              </button>
+            </form>
+          </div>
+        </div>
       </nav>
     </header>
     <main>
@@ -74,116 +157,117 @@ https://cdnjs.com/libraries/normalize
         </h3>
         <p>
           Click through below to find [ ] rebellions, revolutions, and more,
-          spanning from the 17th to early 20th century. I hope you enjoy and
-          learn something new!
+          spanning from 17th century Tsarist Russia. I hope you enjoy and learn
+          something new!
         </p>
       </div>
-      <details>
-        <summary style="background-color: #e3d1d4;">
-          17th Century
-        </summary>
-        <span>
-          <div>
-            Uprising of Bolotnikov
-            <ul>
-              <li>Date: 1606-1607</li>
-              <li>Location: Southern & Central Russia</li>
-              <li>Groups Uprising: Peasants, Cossacks, Nobles</li>
-              <li>Number of People: Up to 25-30,000</li>
-              <li>Leaders: Ivan Bolotnikov</li>
-              <li>Reason(s): Rise of serfdom, political instability, famine</li>
-              <li>Result: Supression</li>
-            </ul>
-          </div>
-          <div>
-            Bashkir Rebellion of 1662-1664
-            <ul>
-              <li>Date: 1662-1664</li>
-              <li>Location: (Mostly) Bashkortostan (Bashkiria), Russia</li>
-              <li>Groups Uprising: Bashkir Rebels</li>
-              <li>Number of People: Unknown</li>
-              <li>
-                Leaders: Gaura Akbulatov, Ulekeya Krivoy, Ishmukhammed, Konkas
-                Davletbaev, Uraslanbek Bakkin
-              </li>
-              <li>
-                Reason(s): fear of losing rights to land, increased taxes, abuse
-                by officials
-              </li>
-              <li>
-                Result: Officials removed for mistreatement, promised end to
-                abuse by tax collectors, patrimonial right to land officially
-                confirmed
-              </li>
-            </ul>
-          </div>
-          <div>
-            Bashkir Rebellion of 1676 and 1681-1684
-            <ul>
-              <li>Date: 1676, 1681-1684</li>
-              <li>
-                Location: Volga and Ural regions (Western
-                Bashkortostan/Bashkiria)
-              </li>
-              <li>Groups Uprising: Bashkir Rebels, Tatars</li>
-              <li>Number of People: Unknown</li>
-              <li>
-                Leaders: Seit Saafer (Sadiir), Ish-Mukhammed Devletbaev, other
-                Bashkir nobles
-              </li>
-              <li>
-                Reason: Russian governmant tried to impose Christianity on the
-                Muslim Bashkir (and on the Muslim Tatars)
-              </li>
-              <li>
-                Result: Promise to end forceful Christinization
-              </li>
-            </ul>
-          </div>
-          <div>
-            Moscow Uprising of 1682
-            <ul>
-              <li>Date: 1682</li>
-              <li>
-                Location: Moscow
-              </li>
-              <li>Groups Uprising: Strelsy Regiments (firearm infantry)</li>
-              <li>Number of People:</li>
-              <li>
-                Leaders:
-              </li>
-              <li>
-                Reason:
-              </li>
-              <li>
-                Result:
-              </li>
-            </ul>
-          </div>
-          <div>
-            Strelsy Uprising
-            <ul>
-              <li>Date:</li>
-              <li>
-                Location:
-              </li>
-              <li>Groups Uprising: Strelsy Regiments (firearm infantry)</li>
-              <li>Number of People:</li>
-              <li>
-                Leaders:
-              </li>
-              <li>
-                Reason:
-              </li>
-              <li>
-                Result:
-              </li>
-            </ul>
-          </div>
-        </span>
-      </details>
+
+      <summary style="background-color: #e3d1d4;">
+        17th Century
+      </summary>
+      <span>
+        <div>
+          Uprising of Bolotnikov
+          <ul>
+            <li>Date: 1606-1607</li>
+            <li>Location: Southern & Central Russia</li>
+            <li>Groups Uprising: Peasants, Cossacks, Nobles</li>
+            <li>Number of People: Up to 25-30,000</li>
+            <li>Leaders: Ivan Bolotnikov</li>
+            <li>Reason(s): Rise of serfdom, political instability, famine</li>
+            <li>Result: Supression</li>
+          </ul>
+        </div>
+        <div>
+          Bashkir Rebellion of 1662-1664
+          <ul>
+            <li>Date: 1662-1664</li>
+            <li>Location: (Mostly) Bashkortostan (Bashkiria), Russia</li>
+            <li>Groups Uprising: Bashkir Rebels</li>
+            <li>Number of People: Unknown</li>
+            <li>
+              Leaders: Gaura Akbulatov, Ulekeya Krivoy, Ishmukhammed, Konkas
+              Davletbaev, Uraslanbek Bakkin
+            </li>
+            <li>
+              Reason(s): fear of losing rights to land, increased taxes, abuse
+              by officials
+            </li>
+            <li>
+              Result: Officials removed for mistreatement, promised end to abuse
+              by tax collectors, patrimonial right to land officially confirmed
+            </li>
+          </ul>
+        </div>
+        <div>
+          Bashkir Rebellion of 1676 and 1681-1684
+          <ul>
+            <li>Date: 1676, 1681-1684</li>
+            <li>
+              Location: Volga and Ural regions (Western Bashkortostan/Bashkiria)
+            </li>
+            <li>Groups Uprising: Bashkir Rebels, Tatars</li>
+            <li>Number of People: Unknown</li>
+            <li>
+              Leaders: Seit Saafer (Sadiir), Ish-Mukhammed Devletbaev, other
+              Bashkir nobles
+            </li>
+            <li>
+              Reason: Russian governmant tried to impose Christianity on the
+              Muslim Bashkir (and on the Muslim Tatars)
+            </li>
+            <li>
+              Result: Promise to end forceful Christinization
+            </li>
+          </ul>
+        </div>
+        <div>
+          Moscow Uprising of 1682
+          <ul>
+            <li>Date: 1682</li>
+            <li>
+              Location: Moscow
+            </li>
+            <li>Groups Uprising: Strelsy Regiments (firearm infantry)</li>
+            <li>Number of People:</li>
+            <li>
+              Leaders:
+            </li>
+            <li>
+              Reason:
+            </li>
+            <li>
+              Result:
+            </li>
+          </ul>
+        </div>
+        <div>
+          Strelsy Uprising
+          <ul>
+            <li>Date:</li>
+            <li>
+              Location:
+            </li>
+            <li>Groups Uprising: Strelsy Regiments (firearm infantry)</li>
+            <li>Number of People:</li>
+            <li>
+              Leaders:
+            </li>
+            <li>
+              Reason:
+            </li>
+            <li>
+              Result:
+            </li>
+          </ul>
+        </div>
+      </span>
     </main>
     <footer></footer>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+      crossorigin="anonymous"
+    ></script>
   </body>
 </html>
