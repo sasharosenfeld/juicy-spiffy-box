@@ -10,8 +10,6 @@ footer {
   padding: 3%;
 }
 
-
-
 .hero {
   color: white;
   font-size: 30px;
@@ -35,6 +33,7 @@ h2 {
   font-family: "Gowun Batang", serif;
   background-color: white;
   border: 1px solid #919191;
+  margin-top: 2%;
 }
 
 address,
@@ -48,6 +47,7 @@ center {
   padding-bottom: 2%;
   background-color: white;
   border: 1px solid #919191;
+  margin-bottom: 2%;
 }
 
 a {
