@@ -40,9 +40,6 @@ footer {
   padding: 3% 5%;
   font-family: "Gowun Batang", serif;
 }
-.deckofCards .cardDIV img {
-  width: 100%;
-}
 
 /* ~Flexbox~ (https://css-tricks.com/snippets/css/a-guide-to-flexbox/) */
 .deckofCards {
@@ -51,7 +48,12 @@ footer {
   justify-content: space-between;
 }
 .deckofCards .cardDIV {
-  width: 45%;
+  width: 48%;
   margin-bottom: 1em;
   margin-top: 1em;
+}
+
+h3 {
+  padding: 2% 2%;
+  font-family: "Gowun Batang", serif;
 }
