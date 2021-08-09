@@ -14,7 +14,7 @@ footer {
 
 
 .hero {
-  color: white;
+  color: #fff /* white */;
   font-size: 40px;
   font-family: 'Gowun Batang', serif;
   font-weight: 800;
@@ -26,20 +26,17 @@ footer {
   background-repeat: no-repeat;
   background-size: cover;
   background-position: up center;
+
+/*  Add flexbox to align content center  */
+  
+}
+.hero h1 {
+    font-size: 50px;
+    font-family: 'Gowun Batang', serif;
+    font-weight: 800;
 }
 
 
-
-span {
- color: white;
-  font-size: 45px;
-  font-family: 'Gowun Batang', serif;
-  font-weight: 800;
-  text-align: center;
-  /* top/bottom 5% right/left 0   */
-  padding: 5% 0;
-  height: 100vh; 
-}
 
 .deckofCards {
   background-color: #e8e8e8;
