@@ -10,13 +10,13 @@ Hi, I'm Sasha, and I decided to compose a list of uprsings (including many diffe
 
 ← `contactus.html`: The "Contact Us" page provides (100% real) contact information
 
-← `17thcentury_index.html`: Revolts, rebellions, riots, and the like under/aganist Tsarist russia in the 17th century!
+← `17century.html`: Revolts, rebellions, riots, and the like under/aganist Tsarist russia in the 17th century!
 
-← `18thcentury_index.html`: Revolts, rebellions, riots, and the like under/aganist Tsarist russia in the 18th century!
+← `18century.html`: Revolts, rebellions, riots, and the like under/aganist Tsarist russia in the 18th century!
 
-← `19thcentury_index.html`: Revolts, rebellions, riots, and the like under/aganist Tsarist russia in the 19th century!
+← `19century.html`: Revolts, rebellions, riots, and the like under/aganist Tsarist russia in the 19th century!
 
-← `20thcentury_index.html`: Revolts, rebellions, riots, and the like under/aganist Tsarist russia in the early 20th century!
+← `20century.html`: Revolts, rebellions, riots, and the like under/aganist Tsarist russia in the early 20th century!
 
 ## Git
 
