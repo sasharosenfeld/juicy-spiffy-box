@@ -1,6 +1,6 @@
-# 
+# Welcome to My Project!
 
-
+Hi, I'm Sasha, and I decided to compose a list of uprsings (including many different kinds) against Tsarist Russia, which ruled from the late 16th century to the early 20th century! I started with the 17th century, after the Time of Troubles and the beginning of the Romanov dynasty that would rule under Tsar Nicholas II, the last tsar of Russia. 
 
 ## What's in this project?
 
@@ -12,13 +12,11 @@
 
 ← `17thcentury_index.html`: Revolts, rebellions, riots, and the like under/aganist Tsarist russia in the 17th century!
 
-← `18thcentury_index.html`: Revolts, rebellions, riots, and the like under/aganist Tsarist russia in the 17th century!
+← `18thcentury_index.html`: Revolts, rebellions, riots, and the like under/aganist Tsarist russia in the 18th century!
 
-← `19thcentury_index.html`: Revolts, rebellions, riots, and the like under/aganist Tsarist russia in the 1th century!
+← `19thcentury_index.html`: Revolts, rebellions, riots, and the like under/aganist Tsarist russia in the 19th century!
 
 ← `20thcentury_index.html`: Revolts, rebellions, riots, and the like under/aganist Tsarist russia in the early 20th century!
-
-
 
 ## Git
 
