@@ -8,12 +8,15 @@
       rel="icon"
       href="https://cdn.glitch.com/c2e4d67c-0f0a-4fc2-bb0a-acd8a27f5e2f%2FDesktop-512.png?v=1627510918300"
     />
-    <title>Contact Page</title>
+    <title>About Page</title>
     <!-- Meta tags for SEO and social sharing -->
     <link rel="canonical" href="https://juicy-spiffy-box.glitch.me/" />
-    <meta name="description" content="Our contact information" />
+    <meta
+      name="description"
+      content="The about page of Sasha's project template site"
+    />
     <meta name="robots" content="index,follow" />
-    <meta property="og:title" content="Sasha's CSA Website's Contact Page" />
+    <meta property="og:title" content="Sasha's CSA About Page" />
     <meta property="og:type" content="article" />
     <meta property="og:url" content="https://juicy-spiffy-box.glitch.me/" />
     <meta
@@ -25,11 +28,19 @@
       content="https://cdn.glitch.com/c2e4d67c-0f0a-4fc2-bb0a-acd8a27f5e2f%2FDesktop-512.png?v=1627510918300"
     />
     <meta name="twitter:card" content="summary" />
-    <!-- Fonts -->
+
+    <!-- fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap"
       rel="stylesheet"
     />
     <!-- 
@@ -51,7 +62,7 @@ https://cdnjs.com/libraries/normalize
       crossorigin="anonymous"
     />
     <!-- Import the webpage's stylesheet -->
-    <link href="contactus/style.css" rel="stylesheet" />
+    <link href="about/style.css" rel="stylesheet" />
   </head>
   <body>
     <header>
@@ -77,10 +88,7 @@ https://cdnjs.com/libraries/normalize
                 >
               </li>
               <li class="nav-item">
-                <a
-                  class="nav-link active"
-                  aria-current="page"
-                  href="about_index.html"
+                <a class="nav-link active" aria-current="page" href="about.html"
                   >About</a
                 >
               </li>
@@ -88,7 +96,7 @@ https://cdnjs.com/libraries/normalize
                 <a
                   class="nav-link active"
                   aria-current="page"
-                  href="contactus_index.html"
+                  href="contactus.html"
                   >Contact Us</a
                 >
               </li>
@@ -105,12 +113,12 @@ https://cdnjs.com/libraries/normalize
                 </a>
                 <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
                   <li>
-                    <a class="dropdown-item" href="17century_index.html"
+                    <a class="dropdown-item" href="17century.html"
                       >17th Century</a
                     >
                   </li>
                   <li>
-                    <a class="dropdown-item" href="18century_index.html"
+                    <a class="dropdown-item" href="18century.html"
                       >18th Century
                     </a>
                   </li>
@@ -134,37 +142,43 @@ https://cdnjs.com/libraries/normalize
     <main>
       <div class="hero">
         <h1>
-          We'd Love For You To Get In Touch
+          Welcome to the About Page!
         </h1>
-        <p>
-          Find Our Mailing Address, Email, & Phone Number Below!
-        </p>
       </div>
+      <div class="deckofCards">
+        <div class="cardDIV">
+          <h3>
+            About Me
+          </h3>
+          <p>
+            Hi, I'm Sasha! I love history, especially European history, and find
+            Russia particularly interesting. I decided to go with this project
+            because I knew I'd personnally find it fun and interesting to do,
+            and I could learn through my reasearch. I also knew it could give me
+            some oppurtunities to experiment with different pages and layouts. I
+            enjoy coding and had a bit of previous experience with HTML and
+            coding in general before this summer, but I definitely think I
+            learned a lot. Hope you enjoy!
+          </p>
+        </div>
 
-      <h2>
-        Mailing Address
-      </h2>
-      <address>
-        111 W Main Street <br />
-        New York, New York 10012
-      </address>
-
-      <h2>
-        Phone Number
-      </h2>
-      <center>
-        <a href="tel:+1-123-456-7890" class="phone">(123) 456-7890</a>
-      </center>
-
-      <h2>
-        Email Address
-      </h2>
-      <center>
-        <a href="mailto:no_reply@example.com" class="email"
-          >no_reply@example.com</a
-        >
-      </center>
-      
+        <div class="cardDIV">
+          <h3>
+            About the Project
+          </h3>
+          <p>
+            I composed a list of revolutions, revolts, uprsings, etc,
+            under/against Tsarist Russia. The list stretches from the 17th
+            century to the early 20th, from the Time of Troubles caused by the
+            reign of Tsar Ivan IV (Often known as Ivan the Terrible), the first
+            Russian tsar, to Tsar Nicholas II, the last. Included is also some
+            basic details of the specific event, including dates, locations,
+            reasons, results, and more. I may have missed a couple within this
+            period, but I tried to be both thorough and accurate while doing my
+            research, and I apologize in advance for any mistakes.
+          </p>
+        </div>
+      </div>
     </main>
     <footer></footer>
     <script

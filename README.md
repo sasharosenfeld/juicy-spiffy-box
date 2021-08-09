@@ -6,9 +6,9 @@ Hi, I'm Sasha, and I decided to compose a list of uprsings (including many diffe
 
 ← `index.html`: This is my home page, with a breif overview of each of the 4(ish) centuries I'm covering!
 
-← `about_index.html`: Learn about me and the project on the about page!
+← `about.html`: Learn about me and the project on the about page!
 
-← `contactus_index.html`: The "Contact Us" page provides (100% real) contact information
+← `contactus.html`: The "Contact Us" page provides (100% real) contact information
 
 ← `17thcentury_index.html`: Revolts, rebellions, riots, and the like under/aganist Tsarist russia in the 17th century!
 
