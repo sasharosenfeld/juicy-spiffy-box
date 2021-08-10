@@ -30,7 +30,7 @@ footer {
 .herob {
   color: white;
   font-size: 32px;
-  font-family: 'Gowun Batang', serif;
+  font-family: "Gowun Batang", serif;
   font-weight: 800;
   text-align: center;
   /* top/bottom 5% right/left 0   */
@@ -45,7 +45,7 @@ footer {
 .heroc {
   color: white;
   font-size: 32px;
-  font-family: 'Gowun Batang', serif;
+  font-family: "Gowun Batang", serif;
   font-weight: 800;
   text-align: center;
   /* top/bottom 5% right/left 0   */
@@ -60,7 +60,7 @@ footer {
 .herod {
   color: white;
   font-size: 30px;
-  font-family: 'Gowun Batang', serif;
+  font-family: "Gowun Batang", serif;
   font-weight: 800;
   text-align: center;
   /* top/bottom 5% right/left 0   */
@@ -95,7 +95,6 @@ span {
   color: black;
   font-family: "Gowun Batang", serif;
   font-size: 20px;
- 
 }
 
 div {
