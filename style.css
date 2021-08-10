@@ -48,6 +48,7 @@ footer {
   font-size: 20px;
 }
 
+/* Media Screens to change the font size so long words will fit with different screens */
 @media screen and (max-width: 700px) {
   .deckofCards .cardDIV p {
     font-size: 17px;
