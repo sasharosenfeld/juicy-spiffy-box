@@ -47,6 +47,25 @@ footer {
   font-family: "Gowun Batang", serif;
   font-size: 17px;
 }
+
+@media screen and (max-width: 540px) {
+  .deckofCards .cardDIV p {
+    font-size: 15px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .deckofCards .cardDIV p {
+    font-size: 15px;
+  }
+  
+  .deckofCards .cardDIV {
+  width: 50%;
+  margin-bottom: 1em;
+  margin-top: 1em; 
+}
+}
+
 .deckofCards .cardDIV img {
   width: 100%;
 }
@@ -58,11 +77,10 @@ footer {
   justify-content: space-between;
 }
 .deckofCards .cardDIV {
-  width: 40%;
+  width: 24%;
   margin-bottom: 1em;
   margin-top: 1em;
-  margin-right: 5%;
-  margin-left: 5%;
+ 
 }
 
 /* ~Grid~ (https://gridbyexample.com/) */
