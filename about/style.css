@@ -6,7 +6,7 @@ body {
 footer {
   color: black;
   font-size: 15px;
-   font-family: "Gowun Batang", serif; 
+  font-family: "Gowun Batang", serif;
 }
 
 a {
@@ -28,7 +28,7 @@ footer {
   /* top/bottom 5% right/left 0   */
   padding: 5% 0;
   height: 100vh;
-  background-image: url(https://images.unsplash.com/photo-1544536374-b6e394af6a66?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1414&q=80);
+  background-image: url(https://cdn.glitch.com/8fc8acb1-3426-4c70-9d5f-d984f79f201b%2Fcoding-photo-russiaceilingpaintingsgoldblueorange.jpeg?v=1628690990210);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: up center;
