@@ -10,6 +10,9 @@ img {
 }
 footer {
   padding: 3%;
+  color: black;
+  font-size: 15px;
+  font-family: "Gowun Batang", serif;
 }
 
 .hero {

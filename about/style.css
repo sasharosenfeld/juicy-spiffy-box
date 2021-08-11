@@ -2,6 +2,13 @@ body {
   color: #9e9e9e;
   background-color: #e8e8e8;
 }
+
+footer {
+  color: black;
+  font-size: 15px;
+   font-family: "Gowun Batang", serif; 
+}
+
 a {
   text-decoration: none;
 }

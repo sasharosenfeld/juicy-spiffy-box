@@ -10,6 +10,9 @@ img {
 }
 footer {
   padding: 3%;
+  color: black;
+  font-size: 15px;
+  font-family: "Gowun Batang", serif;
 }
 
 .heroa {
@@ -51,7 +54,7 @@ footer {
   /* top/bottom 5% right/left 0   */
   padding: 5% 0;
   height: 100vh;
-  background-image: url(https://images.unsplash.com/photo-1579677359441-a59fa83ecc40?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1500&q=80);
+  background-image: url(https://cdn.glitch.com/8fc8acb1-3426-4c70-9d5f-d984f79f201b%2Fcoding-photo-russiacitytopgreenstatue.jpeg?v=1628690192606);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: up center;
@@ -66,7 +69,7 @@ footer {
   /* top/bottom 5% right/left 0   */
   padding: 5% 0;
   height: 100vh;
-  background-image: url(https://images.unsplash.com/photo-1532004807418-61df679d3204?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1510&q=80);
+  background-image: url(https://cdn.glitch.com/8fc8acb1-3426-4c70-9d5f-d984f79f201b%2Fcoding-photo-russiamodernsunsetbuilding.jpeg?v=1628690248976);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: up center;

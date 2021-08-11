@@ -19,7 +19,7 @@ footer {
   /* top/bottom 5% right/left 0   */
   padding: 5% 0;
   height: 100vh;
-  background-image: url(https://images.pexels.com/photos/3597339/pexels-photo-3597339.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260);
+  background-image: url(https://cdn.glitch.com/8fc8acb1-3426-4c70-9d5f-d984f79f201b%2Fpexels-photo-russiapinkceilinggoldpalace.jpeg?v=1628690318796);
   background-repeat: no-repeat;
   background-size: cover;
   background-position: up center;
@@ -53,4 +53,9 @@ center {
 a {
   text-decoration: none;
   color: black;
+}
+footer {
+  color: black;
+  font-size: 15px;
+   font-family: "Gowun Batang", serif; 
 }
